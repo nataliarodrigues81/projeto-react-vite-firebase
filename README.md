@@ -136,11 +136,17 @@ http://localhost:5173/
 
 ## 📸 Prints da aplicação
 
-Adicione aqui imagens do sistema funcionando:
+### Tela de Login
+![Login](./images/login.png)
 
-* Tela de login
-* Tela de cadastro
-* Usuário autenticado
+### Tela de Cadastro
+![Cadastro](./images/cadastro.png)
+
+### Usuário Autenticado
+![Autenticado](./images/autenticado.png)
+
+### Tela de Usuários
+![Usuários](./images/usuarios.png)
 
 ---
 
