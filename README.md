@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este projeto é uma aplicação web desenvolvida com React que utiliza o Firebase Authentication para realizar cadastro, login e gerenciamento de sessão de usuários.
+Este projeto é uma aplicação web desenvolvida com React (Vite) que utiliza o Firebase Authentication para realizar cadastro, login e gerenciamento de sessão de usuários.
 
 A aplicação permite que usuários criem uma conta com e-mail e senha, façam login e permaneçam autenticados mesmo após recarregar a página.
 
@@ -68,6 +68,8 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 ```
 
+⚠️ As credenciais do Firebase foram ocultadas por segurança.
+
 ---
 
 ## 📂 Estrutura do projeto
@@ -116,7 +118,17 @@ npm install
 
 ---
 
-### 4. Rodar o projeto
+### 4. (Opcional) Instalar Firebase manualmente
+
+O Firebase já está incluído no projeto, mas caso necessário:
+
+```bash
+npm install firebase
+```
+
+---
+
+### 5. Rodar o projeto
 
 ```bash
 npm run dev
@@ -124,7 +136,7 @@ npm run dev
 
 ---
 
-### 5. Abrir no navegador
+### 6. Abrir no navegador
 
 Acesse:
 
